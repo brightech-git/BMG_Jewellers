@@ -2932,7 +2932,7 @@ header.header-three.sigma-header .nav-container .menu-right-buttons .cart-dropdo
     width: 60px;
     height: 100%;
     z-index: 1;
-    background-color: #fcd462;
+    background-color: #0a0a0a;
     font-size: 14px;
     color: #fff;
     -webkit-transition: all 0.3s ease-out 0s;
@@ -11455,7 +11455,7 @@ footer .footer-widget-area::after,
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../img/icon/pattern-01.png);
+    background-image: url(../img/banner/footer.webp);
     content: '';
     background-size: cover;
     background-repeat: repeat;
@@ -11474,7 +11474,7 @@ footer .footer-widget-area .widget,
 footer .footer-widget-area .widget a,
 footer .footer-widget-area .widget .widget-title,
 footer .footer-widget-area .widget h6 {
-    color: var(--primary-text-color);
+    color: #fff;
 }
 
 footer .footer-widget-area .widget h4.widget-title {
@@ -11670,7 +11670,7 @@ footer .footer-widget-area.light-theme .widget.contact-widget .contact-box {
 }
 
 footer .copyright-area {
-    color: #fff;
+    color: #000;
 }
 
 footer .copyright-area .social-links {
@@ -11689,7 +11689,7 @@ footer .copyright-area .social-links a {
     width: 60px;
     line-height: 60px;
     text-align: center;
-    color: #fff;
+    color: #000;
     background-color: #212121;
     margin-left: 10px;
 }
@@ -11740,7 +11740,7 @@ footer .copyright-area .copyright-text {
 }
 
 footer .copyright-area .copyright-text a {
-    color: #fff;
+    color: #000;
     text-decoration: underline;
 }
 
@@ -11800,29 +11800,121 @@ footer .copyright-area .footer-menu ul li:first-child::before {
 }
 
 footer .copyright-area .footer-menu ul li a {
-    color: #fff;
+    color: #000;
     font-weight: 700;
     font-family: "Roboto", sans-serif;
 }
 
 footer .copyright-area .footer-menu ul li a:hover {
-    color: #fcd462;
+    color: #cd865c;
 }
 
 footer .copyright-area.light-theme {
-    background-color: #1c1b19;
+    background-color: #fff;
 }
 
 footer .copyright-area.light-theme,
 footer .copyright-area.light-theme a,
 footer .copyright-area.light-theme .copyright-text,
 footer .copyright-area.light-theme .footer-menu ul li a {
-    color: #fff;
+    color: #000;
 }
 
 footer .copyright-area.light-theme .footer-menu ul li::before {
     background-color: #737373;
 }
+
+
+/*------Styles for Popular Searches--------*/
+/* Payment Icons Section */
+.payment-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align to the left */
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.payment-icons i {
+  font-size: 28px;
+  color: #c38c66;
+  background-color: #f3ece6;
+  padding: 8px 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.payment-icons i:hover {
+  transform: scale(1.1);
+  color: #a06b47;
+}
+
+/* Ensure Useful Links column is styled correctly */
+.widget.nav-widget {
+  display: flex;
+  flex-direction: column;
+}
+
+.widget.nav-widget .useful-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 40px;
+  margin-bottom: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.widget.nav-widget .useful-links li {
+  width: 45%; /* Two columns */
+  margin-bottom: 10px;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .payment-icons {
+    justify-content: center;
+  }
+
+  .widget.nav-widget .useful-links li {
+    width: 100%; /* Stack links on small screens */
+  }
+
+  .payment-icons i {
+    font-size: 24px;
+    padding: 6px 10px;
+  }
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #000; /* White for dark background */
+  transition: color 0.3s ease, padding-left 0.3s ease;
+}
+
+.footer-links li a {
+  color: inherit;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-links li:hover {
+  color: #ffd8a4; /* Light gold on hover */
+  padding-left: 5px;
+}
+
+.footer-links li a:hover {
+  color: #ffd8a4;
+}
+
 
 
 /*=======  Sigma Footer  =======*/

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import Slider from 'react-slick'
 
-import img1 from '../../../assets/img/banner/04.jpg';
+import img1 from '../../../assets/img/banner/Slider_1.webp';
 import img2 from '../../../assets/img/banner/05.jpg';
 
 const bannerposts = [
