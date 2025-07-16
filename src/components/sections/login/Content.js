@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import loginbg from '../../../assets/img/bg/loginImage1.jpg';
+import loginbg from '../../../assets/img/bg/login.webp';
 
 class Content extends Component {
     render() {
@@ -20,6 +20,7 @@ class Content extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="login-form">
+                                    <h2>Welcome Back!</h2>
                                     <h2>Log in</h2>
                                     <form method="post">
                                         <div className="input-group input-group-two mb-20">

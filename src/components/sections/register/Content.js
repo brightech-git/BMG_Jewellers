@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import registerbg from "../../../assets/img/bg/gold1.jpg";
+import registerbg from "../../../assets/img/bg/sign.webp";
 
 class Content extends Component {
     render() {

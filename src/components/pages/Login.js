@@ -11,7 +11,7 @@ class Login extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Bmg | Login</title>
+                    <title>Login</title>
                     <meta
                         name="description"
                         content="#"

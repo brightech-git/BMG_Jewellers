@@ -4,9 +4,9 @@ import Slider from 'react-slick';
 import ReactWOW from 'react-wow';
 import Cursor from '../../layouts/Cursor';
 
-import img1 from '../../../assets/img/banner/Tritiya_Slider_3.webp';
-import img2 from '../../../assets/img/banner/Tritiya_Slider_2.webp';
-import img3 from '../../../assets/img/banner/Tritiya_Slider_1.webp';
+import img1 from '../../../assets/img/banner/Slider_3.webp';
+import img2 from '../../../assets/img/banner/Slider_2.webp';
+import img3 from '../../../assets/img/banner/Slider_1.webp';
 
 const bannerposts = [
     { img: img1 },
