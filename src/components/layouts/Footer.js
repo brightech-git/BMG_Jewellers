@@ -35,7 +35,7 @@ class Footer extends Component {
                         <div className="row no-gutters">
                             <div className="col-lg-8">
                                 <div className="row">
-                                    <div className="">
+                                    <div className="col-lg-6">
                                         {/*====== Back to top ======*/}
                                         <div className="sigma-backto-top">
                                             <Link to="#" className="back-to-top" id="backToTop" onClick={() => this.scrollToTop()}>
