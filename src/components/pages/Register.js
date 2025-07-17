@@ -11,7 +11,7 @@ class Register extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Bmg | Register</title>
+                    <title>Register</title>
                     <meta
                         name="description"
                         content="#"

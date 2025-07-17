@@ -11,7 +11,7 @@ class Bloggrid extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Laramiss | Blog Grid</title>
+                    <title>Blog Grid</title>
                     <meta
                         name="description"
                         content="#"
